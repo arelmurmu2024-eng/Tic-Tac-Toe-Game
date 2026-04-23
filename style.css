@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    min-height: 100vh;
+    margin: 0px;
+}
+#box{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    height: 40vh;
+    width: 85vw;
+}
+.btn{
+    font-size: 2rem;
+}
+
+/* For pc screen only */
+@media (min-width: 576px) {
+    #box{
+        height: 50vh;
+        width: 40vw;
+    }
+}
+
