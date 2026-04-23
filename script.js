@@ -1,9 +1,12 @@
+//Element initialization
 const btn = document.body.querySelectorAll(".btn");
 
+//Used in next function
 function changeTheme(className, btnElement){
     btnElement.setAttribute("class", className);
 }
 
+//This changes the X and O after corresponding clicks
 btn.forEach((b)=>{
     b.addEventListener("click", ()=>{
         if(b.innerText === ""){
