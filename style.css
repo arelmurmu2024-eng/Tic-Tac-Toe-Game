@@ -19,6 +19,17 @@ body{
 .btn{
     font-size: 2rem;
 }
+#msg{
+    margin: 0rem 0rem 1rem 1rem;
+    color: #67C090;
+}
+#relode{
+    margin: 1rem 0rem 1rem 1rem;
+    
+}
+#ply{
+    color: #215B63;
+}
 
 /* For pc screen only */
 @media (min-width: 576px) {
